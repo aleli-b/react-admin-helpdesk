@@ -9,9 +9,8 @@ import {
   localStorageStore,
 } from "react-admin";
 import { ReactQueryDevtools } from "react-query/devtools";
-
 import { ConnectionWatcher } from "./ConnectionWatcher";
-import { authProvider } from "./authProvider";
+import authProvider from "./authProvider";
 import customers from "./customers";
 import { dataProvider } from "./dataProvider";
 import products from "./products";
